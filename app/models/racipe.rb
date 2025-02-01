@@ -1,0 +1,2 @@
+class Racipe < ApplicationRecord
+end

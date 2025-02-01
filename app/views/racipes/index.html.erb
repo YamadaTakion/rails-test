@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Racipes" %>
+
+<h1>Racipes</h1>
+
+<div id="racipes">
+  <% @racipes.each do |racipe| %>
+    <%= render racipe %>
+    <p>
+      <%= link_to "Show this racipe", racipe %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New racipe", new_racipe_path %>

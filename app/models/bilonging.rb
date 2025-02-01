@@ -1,0 +1,3 @@
+class Bilonging < ApplicationRecord
+
+end

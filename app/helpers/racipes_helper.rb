@@ -1,0 +1,2 @@
+module RacipesHelper
+end

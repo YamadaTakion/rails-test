@@ -1,0 +1,10 @@
+class CreateRacipes < ActiveRecord::Migration[8.0]
+  def change
+    create_table :racipes do |t|
+      t.string :title
+      t.text :description
+
+      t.timestamps
+    end
+  end
+end

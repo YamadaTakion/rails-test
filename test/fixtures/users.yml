@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  introduction: MyText
+  account_id: MyString
+  email: MyString
+  encrypted_password: MyString
+  telephone_number: MyString
+  is_banned: false
+
+two:
+  name: MyString
+  introduction: MyText
+  account_id: MyString
+  email: MyString
+  encrypted_password: MyString
+  telephone_number: MyString
+  is_banned: false

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @racipe %>
+
+<div>
+  <%= link_to "Edit this racipe", edit_racipe_path(@racipe) %> |
+  <%= link_to "Back to racipes", racipes_path %>
+
+  <%= button_to "Destroy this racipe", @racipe, method: :delete %>
+</div>
